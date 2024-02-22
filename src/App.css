@@ -39,36 +39,93 @@
 }
 
 .Navbar {
+  padding: 10px;
+  text-align: center;
 }
 
 .NavbarItems {
   padding: 40px;
-
   font-size: larger;
-
   height: 150px;
   text-decoration: none;
   color: black;
   font-family: Arial, Helvetica, sans-serif;
   position: relative;
   top: 50px;
-  left: 50px;
 }
 
 .NavbarItems:hover {
-  color: green;
+  color: red;
 }
 
 .Title {
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 45px;
+  font-weight: bold;
   position: relative;
-  top: 25px;
-  color: green;
+  color: black;
+  padding: 25px;
 }
 
 .subjects {
   position: center;
-  padding: 150px;
+  padding-top: 80px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.small {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  top: 25px;
+  color: black;
+  padding: 2px;
+}
+.smaller {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  position: relative;
+  top: 25px;
+  color: black;
+  padding: 10px;
+}
+
+.sunset {
+  width: "500";
+  height: "400";
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+.dadProfile {
+  margin-top: 75px;
+  margin-right: 150px;
+}
+
+.contact {
+  position: center;
+  padding-top: 80px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+  text-align: center;
+  justify-content: left;
+}
+
+.contactPage {
+  display: flex;
+  flex-direction: row;
 }
